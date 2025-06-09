@@ -53,9 +53,11 @@ sudo apt install google-chrome-stable
 
 # ChromeDriver will be automatically managed by selenium
 ```
+# Make sure virtual environment is activated
+source grin_env/bin/activate
 
-## Project Structure
-
+# Run the crawler
+python3 grin_crawler.py
 ```
 grin-crawler/
 ├── grin_crawler.py          # Main crawler script
