@@ -58,6 +58,8 @@ source grin_env/bin/activate
 
 # Run the crawler
 python3 grin_crawler.py
+
+### Project Structure
 ```
 grin-crawler/
 ├── grin_crawler.py          # Main crawler script
